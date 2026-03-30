@@ -1,8 +1,8 @@
 # Open Source Audit Project
 
 Name: Khushi Gautam  
-Registration Number: 24BAI10126 
-Software Chosen: Git  
+Registration Number: 24BAI10126        
+ Software Chosen: Git  
 
 ## Project Description
 This project analyzes Git as an open-source software, including its origin, license, Linux usage, and ecosystem.
