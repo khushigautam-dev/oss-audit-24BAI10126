@@ -1,33 +1,49 @@
-# Open Source Audit Project
+# The Open Source Audit: Python
+A Capstone Project for the OSS NGMC Course.
 
-Name: Khushi Gautam  
-Registration Number: 24BAI10126        
- Software Chosen: Git  
+## Student Information
+- **Name:Khushi Gautam
+- **Registration Number: 24BAI10126
+- **Course: Open Source Software
 
-## Project Description
-This project analyzes Git as an open-source software, including its origin, license, Linux usage, and ecosystem.
+## Project Overview
+This repository contains a structured audit of **Python**, an open-source programming language managed by the Python Software Foundation. Python was chosen for its massive impact on the open-source ecosystem, its permissive license, and its philosophy of readability and simplicity ("The Zen of Python").
 
-## Scripts
+## Contents
+1.  **OSS Audit Report (PDF):** A detailed analysis of Python's history, licensing (PSF License), and ecosystem.
+2.  **Shell Scripts:** Five practical Linux automation scripts demonstrating core CLI skills.
 
-1. script1.sh – Displays system information  
-2. script2.sh – Checks if Git is installed  
-3. script3.sh – Shows directory permissions  
-4. script4.sh – Analyzes log files  
-5. script5.sh – Generates open source manifesto  
+## Shell Scripts Description
 
-## How to Run
+### 1. System Identity Report (`script1.sh`)
+Provides a snapshot of the current Linux environment, including the kernel version, uptime, and the user's software choice.
 
-chmod +x script1.sh
-./script1.sh
+### 2. FOSS Package Inspector (`script2.sh`)
+Checks if Python is installed on the system, displays version details, and provides a summary of its purpose using a `case` statement.
 
-chmod +x script2.sh
-./script2.sh
+### 3. Disk and Permission Auditor (`script3.sh`)
+Scans critical system directories to report disk usage and file permissions, helping identify where Python-related configurations may reside.
 
-chmod +x script3.sh
-./script3.sh
+### 4. Log File Analyzer (`script4.sh`)
+A diagnostic tool that searches through system log files for specific keywords (like "ERROR" or "PYTHON") and provides a summary of occurrences.
 
-chmod +x script4.sh
-./script4.sh logfile.txt
+### 5. Open Source Manifesto Generator (`script5.sh`)
+An interactive script that gathers user input to generate a personalized "Open Source Manifesto" text file.
 
-chmod +x script5.sh
-./script5.sh
+## How to Run the Scripts
+1.  **Clone the repository:**
+    ```bash
+    git clone [your-repo-url]
+    cd [repo-name]
+    ```
+2.  **Make the scripts executable:**
+    ```bash
+    chmod +x *.sh
+    ```
+3.  **Execute a script:**
+    ```bash
+    ./script1.sh
+    ```
+
+---
+*Note: These scripts are designed for a Linux environment.*
