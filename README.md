@@ -1,7 +1,7 @@
 # Open Source Audit Project
 
 Name: Khushi Gautam  
-Registration Number: XXXXX  
+Registration Number: 24BAI10126 
 Software Chosen: Git  
 
 ## Project Description
